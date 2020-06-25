@@ -9,7 +9,7 @@
 <script>
 export default {
   name: "BookList",
-  date: function() {
+  data() {
     return {
       title: "All Books"
     }
@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 h1, h2 {
   font-weight: normal;
